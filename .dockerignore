@@ -1,0 +1,44 @@
+# Ignore the .git directory itself
+.git
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.env/
+.venv/
+venv/
+
+# Ignore Docker-related files
+.docker
+
+# Ignore environment-specific files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore cache files
+*.cache
+.cache/
+
+# Ignore any other temporary or backup files
+*.bak
+*.swp
+*~
+
+# Ignore IDE/editor specific files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+*.iml
+
+# Ignore other specific directories in the app directory
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
